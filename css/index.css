@@ -1,0 +1,53 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html,body,.swiper-container,.swiper-wrapper,.swiper-slide{
+	height: 100%;
+	width: 100%;
+}
+.bg-blue{
+	background: blue;
+}
+.bg-red{
+	background: red;
+}
+.bg-green{
+	background: green;
+}
+
+.bg-blue{background: url(../image/001.png); background-size:cover;}
+.bg-red{background: url(../image/002.png); background-size:cover;}
+.bg-green{background: url(../image/003.png); background-size:cover;}
+.bg-pink{background: url(../image/004.png); background-size:cover;}
+
+.tab{
+	z-index: 999;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height: 45px;
+	line-height: 45px;
+	background: #fff;
+	color: #333;
+	border-top: 1px solid #ddd;
+}
+.tab a{
+	display: inline-block;
+	/*background: red;*/
+	width: 24%;
+	font-size: 14px;
+	text-decoration: none;
+	text-align: center;
+	color:#333;
+}
+.tab a.active{
+	background: #ddd;
+	color: red;
+}
+
+.swiper-scrollbar{z-index:999; position: absolute; bottom: 5px; left: 0; width: 100%; height: 10px; background: #fff;}
+.swiper-scrollbar-drag {
+  /*... 滚动条中可拖动块的样式...*/
+} 
